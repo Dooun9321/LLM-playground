@@ -1,0 +1,22 @@
+[project]
+name = "do-it-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = [
+    "dotenv>=0.9.9",
+    "ffmpeg>=1.4",
+    "ffmpeg-python>=0.2.0",
+    "google>=3.0.0",
+    "google-genai>=1.52.0",
+    "ipykernel>=7.1.0",
+    "pyannote-audio==3.1.1",
+    "pytube>=15.0.0",
+    "torch>=2.9.1",
+    "transformers>=4.57.3",
+    "yt-dlp>=2025.11.12",
+]
