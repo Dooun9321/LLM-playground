@@ -5,10 +5,12 @@ def get_current_time():
     return now
 
 tools = [
-    "type": "function",
-    "function": {
-        "name": "get_current_time",
-        "description": "Get the current time",
+    {
+        "type": "function",
+        "function": {
+            "name": "get_current_time",
+            "description": "Get the current time",
+        }
     }
 ]
     
